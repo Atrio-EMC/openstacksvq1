@@ -61,7 +61,7 @@ tema: white
     <li>Finalmente OpenStack</li>
 </section>
 <section>
-  <h2>¿Por qué OpenStack</h2>
+  <h2>¿Por qué OpenStack?</h2>
   <ul>
     <li>Porque queremos instalar nuestro propio software para
       proporcionar IaaS</li>
@@ -168,14 +168,14 @@ tema: white
       <li>Hasta 10 instancias</li>
       <li>Hasta 10 volúmenes</li>
       <li>Hasta 10 IPs flotantes</li>
+      <li>Se monta una infraestructura similar mantenida por el propio alumno
+      durante todo el curso. Por ejemplo: targaryen, stark, lannister y
+      greyjoy</li>
     </ul>
   </section>
   <section>
     <h2>Otros elementos</h2>
     <ul>
-      <li>Se monta una infraestructura similar mantenida por el propio alumno
-      durante todo el curso, por ejemplo targaryen, stark, lannister y
-      greyjoy</li>
       <li>Aprendizaje basado en proyectos</li>
       <li>Redmine</li>
       <li>OpenVPN</li>
@@ -189,20 +189,16 @@ tema: white
 	a otro por ssh.
 	<ol>
 	  <li>Comprueba que todos los equipos de tu subdominio estén
-	    correctamente definidos en el DNS</li>
-	  <li>Verifica que todos los equipos resuleven correctamente su propio
-            FQDN</li>
-          <li>Comprueba que estén bien sincronizados los relojes de todos los
-	    equipos utilizando ntp</li>
+	    correctamente definidos en el DNS. Verifica que todos los equipos
+	    resuleven correctamente su propio FQDN</li> 
 	  <li>Crea principales para los dos equipos en kerberos</li>
-	  <li>Exporta el keytab del principal de stark</li>
-	  <li>Verifica los permisos del keytab de stark</li>
+	  <li>Exporta el keytab del principal de stark y verifica los
+	    permisos</li>
 	  <li>Realiza las modificaciones necesarias para kerberizar el servicio
             ssh</li>
 	  <li>Configura el cliente ssh de targaryen y stark para que el usuario
       "usuario" pueda acceder de forma transparente de uno a otro sin volver a
-      autenticarse (al acceder por ssh el usuario no necesitará autenticarse si
-	    lo ha hecho previamente frente a kerberos)</li>
+      autenticarse</li>
     </ul>
   </section>
 </section>
