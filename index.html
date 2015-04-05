@@ -46,7 +46,7 @@ tema: white
 	proyecto</a>. La documentación técnica ya está obsoleta.</li>
     <li>Respuesta a los resultados:
       <ul>
-	<li>Administración pública: ...</li>
+	<li>Administración pública ...</li>
 	<li>Empresas</li>
       </ul>
     </li>
@@ -65,6 +65,8 @@ tema: white
   <ul>
     <li>Porque queremos instalar nuestro propio software para
       proporcionar IaaS</li>
+    <li>Porque tenemos demanda variable de infraestructura y queremos una
+    autogestión ágil por parte de los usuarios</li>
     <li>Porque es software libre</li>
     <li>Porque es un proyecto estable,
       con <a href="http://www.openstack.org/foundation/companies/">muchos
@@ -122,7 +124,9 @@ tema: white
 	ajustes hechos manualmente.</li>
       <li>OpenStack Icehouse (2014.1) sobre Debian Jessie: Nova (KVM), Keystone
 	(SQL), Glance, Cinder (LVM), Neutron (OVS) y Horizon (HTTPS)</li>
+      <li>Sin problemas significativos. Muy buena experiencia por parte de los alumnos</li>
       <li>Empezamos a detectar interés en el sector</li>
+      <li>Incluímos algunos servicios no críticos en instancias</li>
     </ul>
   </section>
 </section>
@@ -154,7 +158,7 @@ tema: white
     </ul>
   </section>
 </section>
-<section>
+<section data-background="#CC9999">
   <section>
     <h2>Uso didáctico</h2>
     <p>No hay diferencias entre aprender de forma teórica y de forma práctica. Al
@@ -184,9 +188,9 @@ tema: white
   <section>
     <h2>Ejemplo: Kerberizar ssh</h2>
     <ul>
-      <li>Vamos a utilizar el servidor Kerberos de targeryen como sistema de
-      autenticación para nuestros usuarios para que puedan acceder de un equipo
-	a otro por ssh.
+      <p>Vamos a utilizar el servidor Kerberos de targeryen como sistema de
+      autenticación para nuestros usuarios para que puedan acceder de un equipo 
+	a otro por ssh.</p>
 	<ol>
 	  <li>Comprueba que todos los equipos de tu subdominio estén
 	    correctamente definidos en el DNS. Verifica que todos los equipos
@@ -199,21 +203,19 @@ tema: white
 	  <li>Configura el cliente ssh de targaryen y stark para que el usuario
       "usuario" pueda acceder de forma transparente de uno a otro sin volver a
       autenticarse</li>
-    </ul>
   </section>
 </section>
 <section>
   <h2>Conclusiones</h2>
   <ul>
-    <li>OpenStack es una herramienta fundamental en el aprendizaje de los
-    alumnos del IES Gonzalo Nazareno</li> 
+    <li>Herramienta fundamental en el aprendizaje de los alumnos del IES Gonzalo
+    Nazareno</li>
     <li>Proporciona una forma ágil y sencilla de autogestionar la
-      infraestructura, que es muy adecuada para el montaje de prácticas</li>
+      infraestructura, que es muy adecuada para las prácticas</li>
     <li>Se aprende a administrar servidores de forma real</li>
     <li>Combinado con una VPN permite la utilización continua de la
     infraestructura</li> 
-    <li>La utilización de una nube privada evita las limitaciones del uso de una
-      nube pública</li>
+    <li>Evita las limitaciones del uso de una nube pública</li>
     <li>Supone mejorar las expectativas laborales de los alumnos</li>
     <li>Supone mucho trabajo para los profesores implicados, pero a la vez una
       enorme satisfacción y mejora en su formación</li>
