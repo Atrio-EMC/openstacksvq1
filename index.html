@@ -84,11 +84,14 @@ tema: white
     <h2>2011-12</h2>
     <ul>
       <li>Primeras pruebas en equipos convencionales</li>
-      <li>Horas de Libre Configuración y Proyectos</li>
+      <li>Nueva asignatura en 2º sobre virtualización y cloud computing</li>
       <li>OpenNebula 3.1 y OpenStack Diablo</li>
       <li>Adquisición de servidores</li>
       <li>Abril - Junio 2012: OpenStack Essex (2012.1) sobre Debian Wheezy: Nova
-	(KVM), Keystone (SQL), Glance y Horizon</li>
+	(KVM), Keystone (SQL), Glance y Horizon. Nexentastor en el nodo de
+	almacenamiento.</li>
+      <li>Varios alumnos hicieron su proyecto final sobre alguno de los
+      componentes de esta instalación</li>
       <li>Instalación manual</li>
     </ul>
   </section>
@@ -97,8 +100,9 @@ tema: white
     <ul>
       <li>Utilización en el aula: Sistemas, Servicios y Cloud Computing</li>
       <li>Muy provechoso a pesar de encontrar numerosos errores</li>
-      <li>Colaboraciones esporádicas en "Debian OpenStack packaging team"</li>
-      <li>Algunos reportes y parches</li>
+      <li>Comienzan las colaboraciones esporádicas en "Debian OpenStack
+      packaging team"</li> 
+      <li>Se informa de algunos errores encontrados y se proponen parches</li>
       <li>Sólo se utiliza la nube para prácticas. Los servidores de la red siguen
 	en MVs convencionales (KVM)</li>
     </ul>
@@ -124,10 +128,10 @@ tema: white
 	de <a href="https://github.com/iesgn/openstack-debian-ansible">openstack-debian-ansible</a>. Últimos
 	ajustes hechos manualmente.</li>
       <li>OpenStack Icehouse (2014.1) sobre Debian Jessie: Nova (KVM), Keystone
-	(SQL), Glance, Cinder (LVM), Neutron (OVS) y Horizon (HTTPS)</li>
+	(SQL), Glance, Cinder (LVM), Neutron (OVS), Horizon (HTTPS) y Heat</li>
       <li>Sin problemas significativos. Muy buena experiencia por parte de los alumnos</li>
-      <li>Empezamos a detectar interés en el sector</li>
-      <li>Incluímos algunos servicios no críticos en instancias</li>
+      <li>Comenzamos a detectar interés en el sector</li>
+      <li>Empezamos a incluir algunos servicios no críticos en instancias</li>
     </ul>
   </section>
 </section>
@@ -151,25 +155,29 @@ tema: white
     <h2>Impresiones</h2>
     <ul>
       <li>Equipos sobredimensionados para la demanda real. Habitualmente sólo
-      utilizamos dos nodos de computación</li>
+	utilizamos dos nodos de computación</li>
+      <li>El uso de RAM en los nodos controlador, de red y almacenamiento es
+      bajo en nuestro entorno (4-5 GiB como máximo)</li>
       <li>Uso mínimo de CPU (entornos de pruebas)</li>
       <li>Relación inadecuada CPU/RAM. CPU allocation ratio: 16:1, RAM
       allocation ratio: 1.5:1</li>
-      <li>Posibles mejoras: HA, KSM y Ceph</li>
+      <li>Mejoras pendientes: Alta disponibilidad, KSM y Ceph</li>
+      <li>Componentes a considerar: Swift, Designate, Trove y Sahara</li>
     </ul>
   </section>
 </section>
 <section data-background="#CC9999">
   <section>
     <h2>Uso didáctico</h2>
-    <p>No hay diferencias entre aprender de forma teórica y de forma práctica. Al
-      menos en teoría</p>
+    <cite>"No hay apenas diferencias entre el aprendizaje teórico y el
+    aprendizaje práctico. Al menos en teoría."</cite>
   </section>
   <section>
     <h2>Proyectos</h2>
     <p>Cada uno de los 70 alumnos cuenta con:</p>
     <ul>
-      <li>Un proyecto en el que puede crear las redes privadas que desee</li>
+      <li>Un proyecto en el que puede crear las redes, subredes y routers que
+      desee</li>
       <li>Hasta 10 instancias</li>
       <li>Hasta 10 volúmenes</li>
       <li>Hasta 10 IPs flotantes</li>
