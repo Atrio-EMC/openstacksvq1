@@ -38,15 +38,15 @@ tema: white
 <section>
   <h2>Proyecto de Innovación</h2>
   <ul>
-    <li>Proyecto desarrollado junto al IES Los Albares. Cieza (Murcia), IES La
-      Campiña. Arahal (Sevilla) e IES Ingeniero la Cierva (Murcia)</li>
+    <li>Proyecto desarrollado junto al IES Los Albares de Cieza (Murcia), IES La
+      Campiña de Arahal (Sevilla) e IES Ingeniero la Cierva de Murcia</li>
     <li>No participó ninguna empresa del sector ni ninguna otra
       administración</li>
     <li><a href="http://www.gonzalonazareno.org/cloud/">Resultados del
 	proyecto</a>. La documentación técnica ya está obsoleta.</li>
     <li>Respuesta a los resultados:
       <ul>
-	<li>Administración pública ...</li>
+	<li>Administración pública</li>
 	<li>Empresas</li>
       </ul>
     </li>
@@ -197,23 +197,34 @@ tema: white
     </ul>
   </section>
   <section>
-    <h2>Ejemplo: Kerberizar ssh</h2>
-    <ul>
-      <p>Vamos a utilizar el servidor Kerberos de targeryen como sistema de
-      autenticación para nuestros usuarios para que puedan acceder de un equipo 
-	a otro por ssh.</p>
-	<ol>
-	  <li>Comprueba que todos los equipos de tu subdominio estén
-	    correctamente definidos en el DNS. Verifica que todos los equipos
-	    resuleven correctamente su propio FQDN</li> 
-	  <li>Crea principales para los dos equipos en kerberos</li>
-	  <li>Exporta el keytab del principal de stark y verifica los
-	    permisos</li>
-	  <li>Realiza las modificaciones necesarias para kerberizar el servicio
-            ssh</li>
-	  <li>Configura el cliente ssh de targaryen y stark para que el usuario
-      "usuario" pueda acceder de forma transparente de uno a otro sin volver a
-      autenticarse</li>
+    <h2>Ejemplo de uso</h2>
+    <ol>
+      <li>Se propone la configuración de uno o varios servicios y se
+	asignan tareas a los alumnos a través de redmine</li>
+      <li>Los alumnos crean instancias de los sistemas operativos
+	necesarios y les asocian si es necesario volúmenes</li>
+      <li>Los alumnos añaden las claves públicas de los profesores
+	para que estos puedan acceder a las instancias</li>
+      <li>Los alumnos se responsabilizan del mantenimiento de la
+	instancia</li>
+      <li>En determinados casos un alumno puede compartir una
+	instantánea con sus compañeros</li>
+      <li>Se puede continuar el trabajo desde fuera del aula a
+	través de la VPN</li>
+      <li>El profesor puede corregir desde cualquier lugar la tarea
+	o el proyecto cuando finalice</li>
+    </ol>
+      <!-- 	  <li>Comprueba que todos los equipos de tu subdominio estén -->
+      <!-- 	    correctamente definidos en el DNS. Verifica que todos los equipos -->
+      <!-- 	    resuleven correctamente su propio FQDN</li>  -->
+      <!-- 	  <li>Crea principales para los dos equipos en kerberos</li> -->
+      <!-- 	  <li>Exporta el keytab del principal de stark y verifica los -->
+      <!-- 	    permisos</li> -->
+      <!-- 	  <li>Realiza las modificaciones necesarias para kerberizar el servicio -->
+      <!--       ssh</li> -->
+      <!-- 	  <li>Configura el cliente ssh de targaryen y stark para que el usuario -->
+      <!-- "usuario" pueda acceder de forma transparente de uno a otro sin volver a -->
+      <!-- autenticarse</li> -->
   </section>
 </section>
 <section>
